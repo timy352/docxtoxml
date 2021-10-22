@@ -2,7 +2,7 @@
 
 ## Description
 
-This php class will take a DOCX type Word document and extract all the XML files in it. They will be then all be saved in a directory with the same name as the original DOCX file. This directory will be automatically created if it does not exist. In the normal mode this class will not provide any output to screen.
+This php class will take a DOCX type Word document and extract all the XML files in it. They will be then all be saved in a directory with the same name as the original DOCX file. This directory will be automatically created if it does not exist. In the normal mode this class will not provide any output to screen. A php demonstration file (xmltest.php) is included.
 
 # USAGE
 
