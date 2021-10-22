@@ -16,7 +16,7 @@ $rt = new WordPHP(false); or $rt = new WordPHP();
 $rt = new WordPHP(true);
 ```
 
-## set the encoding - Only needed when viewing the XML files to ensure that the displayed coding matches that of the calling php script
+## Set the encoding - Only needed when viewing the XML files to ensure that the displayed coding matches that of the calling php script
 ```
 $rt = new WordPHP(true, 'encoding');
 ```
