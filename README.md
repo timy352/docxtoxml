@@ -11,12 +11,12 @@ This php class will take a DOCX type Word document and extract all the XML files
 $rt = new WordPHP(false); or $rt = new WordPHP();
 ```
 
-## View the contents of all XML files after saving them
+## Display on screen the contents of all XML files found after saving them
 ```
 $rt = new WordPHP(true);
 ```
 
-## Set the encoding - Only needed when viewing the XML files to ensure that the displayed coding matches that of the calling php script
+## Set the encoding - Only needed when displaying the XML files on screen to ensure that the displayed coding matches that of the calling php script
 ```
 $rt = new WordPHP(true, 'encoding');
 ```
