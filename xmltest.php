@@ -8,7 +8,7 @@
 <body>
 <?php
 require_once('wordxml.php');
-$rt = new WordPHP(false);
+$rt = new WordXML(false);
 $rt->readDocument('sample.docx');
 ?>
 </body>
