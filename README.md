@@ -4,7 +4,7 @@
 
 This php class will take a DOCX type Word document and extract all the XML files in it. They will be then all be saved in a directory with the same name as the original DOCX file. This directory will be automatically created if it does not exist. In the normal mode this class will not provide any output to screen. A php demonstration file (xmltest.php) is included.
 
-New in V1.0.1 - Will now save the footnote and endnote relationship XML files if they exist. Note that the Class name has been changed to WordXML - which is what it should have been originally.
+New in v1.0.1 - Will now save the footnote and endnote relationship XML files if they exist. Note that the Class name has been changed to WordXML - which is what it should have been originally.
 
 # USAGE
 
