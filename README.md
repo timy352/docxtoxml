@@ -6,6 +6,8 @@ This php class will take a DOCX type Word document and extract all the XML files
 
 New in v1.0.1 - Will now save the footnote and endnote relationship XML files if they exist. Note that the Class name has been changed to WordXML - which is what it should have been originally.
 
+New in v1.0.2 - Updated to work in php 8.
+
 # USAGE
 
 ## Include the class in your php script
