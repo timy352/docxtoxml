@@ -175,6 +175,7 @@ class WordXML
 							$zip1->close();
 						}
 					
+						$enc = mb_detect_encoding($xml_file);
 						$this->setXmlParts($this->file_xml, $xml_file, $enc);
 						$Ftarget = str_replace('/','_',$target);
 						$tfile = fopen($Fdir."/".$Ftarget, "w");
